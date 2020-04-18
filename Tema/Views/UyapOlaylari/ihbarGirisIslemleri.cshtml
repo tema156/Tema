@@ -1,0 +1,283 @@
+﻿
+@{
+    ViewData["Title"] = "ihbarGirisIslemleri";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+    <div class="container">
+
+        <div >
+          <h1  style="color:red" >İHBAR İŞLEMLERİ</h1>
+        </div>
+
+
+
+        <div class="row">
+            
+            <br />
+
+
+            <form>
+
+                <div class="form-group col-md-4">
+                    <label for="exampleFormControlSelect1">İhbar Bildirim tipi</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>156 İhbar Hattı</option>
+                        <option>Doğrudan</option>
+                        <option>Karakola Müracaat</option>
+                    </select>
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="exampleFormControlInput1">Tarih ve saati</label>
+                    <input type="datetime" class="form-control" id="exampleFormControlInput1" placeholder="İhbara ati tarih saat giriniz.">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="exampleFormControlSelect1">Yapılan işlemler</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Devriye cıkıldı</option>
+                        <option>Teyit edildi</option>
+                        <option>İşlem yapılmadı</option>
+                    </select>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label for="exampleFormControlTextarea1">İhbar özeti</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="asd">İhbar Sonucu</label>
+                    <select class="form-control" id="asd">
+                        <option>Asılsız</option>
+                        <option>Gerçek</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-6">
+                   <p></p>
+                </div> <div class="form-group col-md-6">
+                   <p></p>
+                </div> <div class="form-group col-md-6">
+                </div> <div class="form-group col-md-6">
+                   <p></p>
+                </div>
+                <br />
+               
+                   <button type="submit" class="btn btn-primary d-inline">Kaydet</button>  
+
+
+              
+
+
+
+
+
+            </form>
+        </div>
+        <br /><br />
+
+
+        <div class="row">
+            <table id="example1" class="display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>İhbar Bildirim Tipi</th>
+                        <th>İhbar Özeti</th>
+                        <th>Tarih ve Saati</th>
+                        <th>Yapılan İşlem</th>
+                        <th>İhbar Sonucu</th> 
+                        <th>Durumu</th>
+                        <th>Sil</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>156 İhbar Hattı</td>
+                        <td>
+
+
+                            @Html.ActionLink("Hırsızlık", "OlayGirisIslemleri", "UyapOlaylari", null, new { @class = "fa fa-arrow-right" })
+
+
+
+                        </td>
+                        <td>01.04.2020</td>
+                        <td>Devriye Çıkıldı</td>
+                        <td><span style="color:red">Gerçek</span></td>
+                        <td>AÇIK</td>
+                        <td> <button type="button" class="btn btn-danger">Sil</button></td>
+                    </tr>
+                    <tr>
+                        <td>Karakola Müracaat</td>
+                        <td>Süleymaniye mahallesinde oto hırsızlığı</td>
+                        <td>04.04.2020</td>
+                        <td>Devriye Çıkıldı</td>
+                        <td><span style="color:black">Asılsız</span></td>
+                        <td>KAPANDI</td>
+                        <td> <button type="button" class="btn btn-danger" disabled   >Sil</button></td>
+                    </tr>
+                    <tr>
+                        <td>156 İhbar Hattı</td>
+                        <td>  @Html.ActionLink("Kasten Yaralama", "OlayGirisIslemleri", "UyapOlaylari", null, new { @class = "fa fa-arrow-right" })</td>
+                        <td>28.03.2020</td>
+                        <td>Devriye Çıkıldı</td>
+                        <td><span style="color:red">Gerçek</span></td>
+                        <td>AÇIK</td>
+
+                        <td> <button type="button" class="btn btn-danger">Sil</button></td>
+                    </tr>
+                    <tr>
+                        <td>156 İhbar Hattı</td>
+                        <td>Çakırova mahallesinde gerçekleşen yangın...</td>
+                        <td>01.04.2020</td>
+                        <td>Devriye Çıkıldı</td>
+                        <td><span style="color:black">Asılsız</span></td>
+                        <td>KAPANDI</td>
+
+                        <td> <button type="button" class="btn btn-danger"  disabled >Sil</button></td>
+                    </tr>
+                    <tr>
+                        <td>156 İhbar Hattı</td>
+                        <td>  @Html.ActionLink("Orman Yangını", "OlayGirisIslemleri", "UyapOlaylari", null, new { @class = "fa fa-arrow-right" })</td>
+                        <td>28.03.2020</td>
+                        <td>Devriye Çıkıldı</td>
+                        <td><span style="color:red">Gerçek</span></td>
+                        <td>AÇIK</td>
+
+                        <td> <button type="button" class="btn btn-danger">Sil</button></td>
+                    </tr>
+                    <tr>
+                        <td>156 İhbar Hattı</td>
+                        <td>Çakırova mahallesinde gerçekleşen yangın...</td>
+                        <td>01.04.2020</td>
+                        <td>Devriye Çıkıldı</td>
+                        <td><span style="color:darkolivegreen">Asılsız</span></td>
+                        <td>AÇIK</td>
+
+                        <td> <button type="button" class="btn btn-danger">Sil</button></td>
+                    </tr>
+                    <tr>
+                        <td>Karakola Müracaat</td>
+                        <td>Süleymaniye mahallesinde oto hırsızlığı</td>
+                        <td>04.04.2020</td>
+                        <td>Devriye Çıkıldı</td>
+                        <td><span style="color:red">Gerçek</span></td>
+                        <td>KAPANDI</td>
+
+
+                        <td> <button type="button" class="btn btn-danger"  disabled>Sil</button></td>
+                    </tr>
+                    <tr>
+                        <td>156 İhbar Hattı</td>
+                        <td>Ayvacık mahallesinde gerçekleşen evden hırsızlık...</td>
+                        <td>28.03.2020</td>
+                        <td>Devriye Çıkıldı</td>
+                        <td><span style="color:darkolivegreen">Asılsız</span></td>
+                        <td>AÇIK</td>
+
+                        <td> <button type="button" class="btn btn-danger">Sil</button></td>
+                    </tr>
+                    <tr>
+                        <td>156 İhbar Hattı</td>
+                        <td>Çakırova mahallesinde gerçekleşen yangın...</td>
+                        <td>01.04.2020</td>
+                        <td>Devriye Çıkıldı</td>
+                        <td><span style="color:red">Gerçek</span></td>
+                        <td>AÇIK</td>
+
+                        <td> <button type="button" class="btn btn-danger">Sil</button></td>
+                    </tr>
+                    <tr>
+                        <td>156 İhbar Hattı</td>
+                        <td>Ayvacık mahallesinde gerçekleşen evden hırsızlık...</td>
+                        <td>28.03.2020</td>
+                        <td>Devriye Çıkıldı</td>
+                        <td><span style="color:darkolivegreen">Asılsız</span></td>
+                        <td>KAPANDI</td>
+
+
+                        <td> <button type="button" class="btn btn-danger"  disabled>Sil</button></td>
+                    </tr>
+                    <tr>
+                        <td>Karakola Müracaat</td>
+                        <td>Süleymaniye mahallesinde oto hırsızlığı</td>
+                        <td>04.04.2020</td>
+                        <td>Devriye Çıkıldı</td>
+                        <td><span style="color:red">Gerçek</span></td>
+                        <td>AÇIK</td>
+
+                        <td> <button type="button" class="btn btn-danger">Sil</button></td>
+                    </tr>
+                    <tr>
+                        <td>Karakola Müracaat</td>
+                        <td>Süleymaniye mahallesinde oto hırsızlığı</td>
+                        <td>04.04.2020</td>
+                        <td>Devriye Çıkıldı</td>
+                        <td><span style="color:darkolivegreen">Asılsız</span></td>
+                        <td>AÇIK</td>
+
+                        <td> <button type="button" class="btn btn-danger">Sil</button></td>
+                    </tr>
+                    <tr>
+                        <td>Karakola Müracaat</td>
+                        <td>Süleymaniye mahallesinde oto hırsızlığı</td>
+                        <td>04.04.2020</td>
+                        <td>Devriye Çıkıldı</td>
+                        <td><span style="color:red">Gerçek</span></td>
+                        <td>AÇIK</td>
+
+                        <td> <button type="button" class="btn btn-danger">Sil</button></td>
+                    </tr>
+                    <tr>
+                        <td>Karakola Müracaat</td>
+                        <td>Süleymaniye mahallesinde oto hırsızlığı</td>
+                        <td>04.04.2020</td>
+                        <td>Devriye Çıkıldı</td>
+                        <td><span style="color:darkolivegreen">Asılsız</span></td>
+                        <td>KAPANDI</td>
+
+                        <td> <button type="button" class="btn btn-danger"  disabled>Sil</button></td>
+                    </tr>
+                    <tr>
+                        <td>Karakola Müracaat</td>
+                        <td>Süleymaniye mahallesinde oto hırsızlığı</td>
+                        <td>04.04.2020</td>
+                        <td>Devriye Çıkıldı</td>
+                        <td><span style="color:darkolivegreen">Asılsız</span></td>
+                        <td>KAPANDI</td>
+
+                        <td> <button type="button" class="btn btn-danger"  disabled>Sil</button></td>
+                    </tr>
+                    <tr>
+                        <td>Karakola Müracaat</td>
+                        <td>Süleymaniye mahallesinde oto hırsızlığı</td>
+                        <td>04.04.2020</td>
+                        <td>Devriye Çıkıldı</td>
+                        <td><span style="color:red">Gerçek</span></td>
+                        <td>AÇIK</td>
+
+                        <td> <button type="button" class="btn btn-danger">Sil</button></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>İhbar Bildirim Tipi</th>
+                        <th>İhbar Özeti</th>
+                        <th>Tarih ve Saati</th>
+                        <th>Yapılan İşlem</th>
+                        <th>İhbar Sonucu</th> 
+                        <th>Durumu</th>
+                        <th>Sil</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+
+<br /><br />
+
+
+
+
