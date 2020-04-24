@@ -8,8 +8,10 @@ namespace Tema.Controllers
 {
     public class UyapOlaylariController : Controller
     {
-        public IActionResult OlayGirisIslemleri()
+        public IActionResult OlayGirisIslemleri(string value)
         {
+            ViewBag.tasarimKodu = value;
+            ViewBag.tasarimKoduu = "kafadar";
             return View();
         } 
         public IActionResult ihbarGirisIslemleri()

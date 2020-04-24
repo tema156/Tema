@@ -1,0 +1,938 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+    
+<div class="col-md-12" style="margin: 10px;">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#kbs">Kimliği Belirli Şüpheli <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>  </button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#kbm">Kimliği Belirli Mağdur <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>  </button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#kbt">Kimliği Belirli Tanık <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>  </button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#km">Kimliği Meçhul Mağdur/Tanık <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>  </button>
+        <button type="button"  class="btn btn-primary" data-toggle="modal" data-target="#t">Tüzel Kişilik <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>  </button>
+</div>
+
+    
+
+    <div class="modal fade" id="kbs" tabindex="-1" role="dialog" aria-labelledby="kbs" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="kbs">Kimliği Belirli Şüpheli</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <form>
+
+                        <div class="form-group row">
+                            <label for="inputPassword" class="col-lg-2 col-form-label" style="padding-top:25px;">T.C Kimlik No Giriniz</label>
+                            <div class="col-lg-8">
+                                <input type="password" class="form-control" id="inpudfgftPassword" placeholder="11 Haneli T.C Kimlik No">
+                            </div>
+                            <div class="col-lg-2">
+
+                                <button type="submit" class=" btn btn-primary btn-lg"><span class="glyphicon glyphicon-search"></span> </button>
+
+                            </div>
+                        </div>
+
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Mernis Bilgileri Girişi <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </button>
+                                    </h5>
+                                </div>
+
+                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body">
+
+
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Pasaport Numarası</label>
+                                            <input type="text" id="exampleFormControlInput1" class="form-control">
+                                        </div>
+
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Geçici Kimlik Numarası</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Uyruğu</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Adı</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+
+
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Soyadı</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Cinsiyeti</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Baba Adı</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Anne Adı</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Doğum Tarihi</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Doğum Yeri</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Medeni Hali</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Nüfus İli</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Nüfus İlçesi</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Nüfus Mahalle/Köy</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">İkamet İli/Mernis</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">İkamet İlçesi/Mernis</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-8">
+                                            <label for="staticEmail">İkamet Mahalle-Köy/Mernis</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row"><br /></div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-primary collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            Diğer Bilgiler  <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">İkamet İli/Beyan</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">İkamet İlçesi/beyan</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">İkamet Mahalle-Köy/Beyan</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Yaşam Durumu</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">eğitim Durumu</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+
+                                        <div class="form-group col-md-4">
+
+                                            <label for="staticEmail">Mesleği</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+
+                                            <label for="staticEmail">Cep Telefonu</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+
+                                            <label for="staticEmail">Sabit Telefonu</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+
+                                            <label for="staticEmail">Alkol Durumu</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+
+                                            <label for="staticEmail">Uyuşturucu Durumu</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+                    </form>
+
+                </div>
+                <div class="row"><br /><br /></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+                    <button type="button" class="btn btn-primary">Kaydet</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="kbm" tabindex="-1" role="dialog" aria-labelledby="kbm" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="kbm">Kimliği belirli mağdur</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <form>
+                        <div class="form-group row">
+                            <label for="inputPassword" class="col-lg-2 col-form-label" style="padding-top:25px;">T.C Kimlik No Giriniz</label>
+                            <div class="col-lg-8">
+                                <input type="password" class="form-control" id="dzfgdf" placeholder="11 Haneli T.C Kimlik No">
+                            </div>
+                            <div class="col-lg-2">
+
+                                <button type="submit" class=" btn btn-primary btn-lg"><span class="glyphicon glyphicon-search"></span> </button>
+
+                            </div>
+                        </div>
+
+
+                        <br />
+
+                        <hr />
+
+
+
+
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                            Mernis Bilgileri Girişi <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </button>
+                                    </h5>
+                                </div>
+
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                    <div class="card-body">
+
+
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Pasaport Numarası</label>
+                                            <input type="text" id="exampleFormControlInput1" class="form-control">
+                                        </div>
+
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Geçici Kimlik Numarası</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Uyruğu</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Adı</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+
+
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Soyadı</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Cinsiyeti</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Baba Adı</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Anne Adı</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Doğum Tarihi</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Doğum Yeri</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Medeni Hali</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Nüfus İli</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Nüfus İlçesi</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Nüfus Mahalle/Köy</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">İkamet İli/Mernis</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">İkamet İlçesi/Mernis</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-8">
+                                            <label for="staticEmail">İkamet Mahalle-Köy/Mernis</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row"><br /></div>
+                            <div class="card">
+                                <div class="card-header" id="headingFour">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-primary collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                            Diğer Bilgiler  <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">İkamet İli/Beyan</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">İkamet İlçesi/beyan</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">İkamet Mahalle-Köy/Beyan</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Yaşam Durumu</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">eğitim Durumu</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+
+                                        <div class="form-group col-md-4">
+
+                                            <label for="staticEmail">Mesleği</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+
+                                            <label for="staticEmail">Cep Telefonu</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+
+                                            <label for="staticEmail">Sabit Telefonu</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+
+                                            <label for="staticEmail">Alkol Durumu</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+
+                                            <label for="staticEmail">Uyuşturucu Durumu</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+                    </form>
+
+                </div>
+
+                <div class="row"><br /><br /></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+                    <button type="button" class="btn btn-primary">Kaydet</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="kbt" tabindex="-1" role="dialog" aria-labelledby="kbt" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="kbt">Kimliği Belirli Tanık</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <form>
+                        <div class="form-group row">
+                            <label for="inputPassword" class="col-lg-2 col-form-label" style="padding-top:25px;">T.C Kimlik No Giriniz</label>
+                            <div class="col-lg-8">
+                                <input type="password" class="form-control" id="zdfgzdf" placeholder="11 Haneli T.C Kimlik No">
+                            </div>
+                            <div class="col-lg-2">
+
+                                <button type="submit" class=" btn btn-primary btn-lg"><span class="glyphicon glyphicon-search"></span> </button>
+
+                            </div>
+                        </div>
+
+
+
+
+                        <br />
+
+                        <hr />
+
+
+
+
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div class="card-header" id="headingFive">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                            Mernis Bilgileri Girişi <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </button>
+                                    </h5>
+                                </div>
+
+                                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                                    <div class="card-body">
+
+
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Pasaport Numarası</label>
+                                            <input type="text" id="exampleFormControlInput1" class="form-control">
+                                        </div>
+
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Geçici Kimlik Numarası</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Uyruğu</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Adı</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+
+
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Soyadı</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Cinsiyeti</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Baba Adı</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Anne Adı</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Doğum Tarihi</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Doğum Yeri</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Medeni Hali</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Nüfus İli</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Nüfus İlçesi</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Nüfus Mahalle/Köy</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">İkamet İli/Mernis</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">İkamet İlçesi/Mernis</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-8">
+                                            <label for="staticEmail">İkamet Mahalle-Köy/Mernis</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row"><br /></div>
+                            <div class="card">
+                                <div class="card-header" id="headingSix">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-primary collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                            Diğer Bilgiler  <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">İkamet İli/Beyan</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">İkamet İlçesi/beyan</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">İkamet Mahalle-Köy/Beyan</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">Yaşam Durumu</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="staticEmail">eğitim Durumu</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+
+                                        <div class="form-group col-md-4">
+
+                                            <label for="staticEmail">Mesleği</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+
+                                            <label for="staticEmail">Cep Telefonu</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+
+                                            <label for="staticEmail">Sabit Telefonu</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+
+                                            <label for="staticEmail">Alkol Durumu</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-4">
+
+                                            <label for="staticEmail">Uyuşturucu Durumu</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                </div>
+                <div class="row"><br /><br /></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Kapat</button>
+                    <button type="button" class="btn btn-primary">Kaydet</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="km" tabindex="-1" role="dialog" aria-labelledby="kbt" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="kbt">Kimliği Meçhul Mağdur/Tanık</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <form>
+
+                        <div class="form-group col-md-12">
+                            <label for="staticEmail">Tipi</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="staticEmail">Cinsiyeti</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="staticEmail">Yaşam Durumu</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="staticEmail">Uyruğu</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="staticEmail">Tahmini Yaşı</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="staticEmail">Açıklama</label>
+                            <textarea class="form-control"> </textarea>
+                        </div>
+
+
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+                    <button type="button" class="btn btn-primary">Kaydet</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="t" tabindex="-1" role="dialog" aria-labelledby="kbt" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="kbt">Tüzel Kişilik</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <form>
+                        <div class="form-group col-md-12">
+                            <label for="staticEmail">Tipi</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="staticEmail">Adı/Ünvanı</label>
+                            <input type="text" class="form-control">
+                        </div>
+
+                        <div class="form-group col-md-12">
+                            <label for="staticEmail">Adresi</label>
+                            <textarea class="form-control"> </textarea>
+                        </div>
+
+
+
+
+                        <div class="form-group col-md-12">
+                            <label for="staticEmail">İletişim İçin Telefon Numarası</label>
+                            <input type="text" class="form-control">
+                        </div>
+
+
+
+
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+                    <button type="button" class="btn btn-primary">Kaydet</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-12" style="margin: 5px;">
+        <button type="submit" style="margin: 5px;" class="btn btn-success">Olay Raporu Oluştur <span class="glyphicon glyphicon-list-alt"></span> </button>
+    </div>
+    
+    <div class="col-md-12">
+        <table id="example1" class="display" style="width:100%">
+            <thead>
+                <tr>
+                    <th>T.C Kimlik No</th>
+                    <th>Pasaport Numarası</th>
+                    <th>Uyruğu</th>
+                    <th>Adı</th>
+                    <th>Soyadı</th>
+                    <th>Cinsiyeti</th>
+                    <th>Şahıs Tipi</th>
+                    <th>Sil</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>11243243243</td>
+                    <td>T343H675</td>
+                    <td>T.C.</td>
+                    <td>Ali Mertcan</td>
+                    <td>İkizler</td>
+                    <td>Erkek</td>
+                    <td>Şüpheli</td>
+                    <td> <button type="button" class="btn btn-danger">Sil</button></td>
+                </tr>
+                <tr>
+
+                    <td>786756756756</td>
+                    <td>T356333561</td>
+                    <td>T.C.</td>
+                    <td>Mehmet Ali</td>
+                    <td>Kamp</td>
+                    <td>Erkek</td>
+                    <td>MAğdur</td>
+                    <td> <button type="button" class="btn btn-danger">Sil</button></td>
+                </tr>
+                <tr>
+
+                    <td>767456484423</td>
+                    <td>T7823232</td>
+                    <td>T.C.</td>
+                    <td>Mehmet</td>
+                    <td>Çelebi</td>
+                    <td>Erkek</td>
+                    <td>Tanık</td>
+                    <td> <button type="button" class="btn btn-danger">Sil</button></td>
+
+
+                </tr>
+                <tr>
+                    <td>906574563453</td>
+                    <td>TR23232323</td>
+                    <td>T.C.</td>
+                    <td>Kemal</td>
+                    <td>Öksüz</td>
+                    <td>Erkek</td>
+                    <td>Şüpheli</td>
+                    <td> <button type="button" class="btn btn-danger">Sil</button></td>
+
+
+                </tr>
+                <tr>
+                    <td>906574563453</td>
+                    <td>TR23232323</td>
+                    <td>T.C.</td>
+                    <td>Nilgün</td>
+                    <td>Toprak</td>
+                    <td>Kadın</td>
+                    <td>Tüzel Kişilik</td>
+                    <td> <button type="button" class="btn btn-danger">Sil</button></td>
+
+
+                </tr>
+                <tr>
+                    <td>906574563453</td>
+                    <td>TR23232323</td>
+                    <td>T.C.</td>
+                    <td>Nilgün</td>
+                    <td>Toprak</td>
+                    <td>Kadın</td>
+                    <td>Bekar</td>
+                    <td> <button type="button" class="btn btn-danger">Sil</button></td>
+
+                </tr>
+
+
+                <tr>
+                    <td>906574563453</td>
+                    <td>TR23232323</td>
+                    <td>T.C.</td>
+                    <td>Kemal</td>
+                    <td>Öksüz</td>
+                    <td>Erkek</td>
+                    <td>Bekar</td>
+                    <td> <button type="button" class="btn btn-danger">Sil</button></td>
+
+
+                </tr>
+
+
+
+
+                <tr>
+                    <td>906574563453</td>
+                    <td>TR23232323</td>
+                    <td>T.C.</td>
+                    <td>Kemal</td>
+                    <td>Öksüz</td>
+                    <td>Erkek</td>
+                    <td>Şüpheli</td>
+                    <td> <button type="button" class="btn btn-danger">Sil</button></td>
+
+
+                </tr>
+                <tr>
+                    <td>906574563453</td>
+                    <td>TR23232323</td>
+                    <td>T.C.</td>
+                    <td>Kemal</td>
+                    <td>Öksüz</td>
+                    <td>Erkek</td>
+                    <td>Bekar</td>
+                    <td> <button type="button" class="btn btn-danger">Sil</button></td>
+
+
+                </tr>
+                <tr>
+                    <td>906574563453</td>
+                    <td>TR23232323</td>
+                    <td>T.C.</td>
+                    <td>Kemal</td>
+                    <td>Öksüz</td>
+                    <td>Erkek</td>
+                    <td>Bekar</td>
+                    <td> <button type="button" class="btn btn-danger">Sil</button></td>
+
+
+                </tr>
+                <tr>
+                    <td>906574563453</td>
+                    <td>TR23232323</td>
+                    <td>T.C.</td>
+                    <td>Kemal</td>
+                    <td>Öksüz</td>
+                    <td>Erkek</td>
+                    <td>Bekar</td>
+                    <td> <button type="button" class="btn btn-danger">Sil</button></td>
+
+
+                </tr>
+                <tr>
+                    <td>906574563453</td>
+                    <td>TR23232323</td>
+                    <td>T.C.</td>
+                    <td>Kemal</td>
+                    <td>Öksüz</td>
+                    <td>Erkek</td>
+                    <td>Bekar</td>
+                    <td> <button type="button" class="btn btn-danger">Sil</button></td>
+
+
+                </tr>
+                <tr>
+                    <td>906574563453</td>
+                    <td>TR23232323</td>
+                    <td>T.C.</td>
+                    <td>Kemal</td>
+                    <td>Öksüz</td>
+                    <td>Erkek</td>
+                    <td>Bekar</td>
+                    <td> <button type="button" class="btn btn-danger">Sil</button></td>
+
+
+                </tr>
+                <tr>
+                    <td>906574563453</td>
+                    <td>TR23232323</td>
+                    <td>T.C.</td>
+                    <td>Kemal</td>
+                    <td>Öksüz</td>
+                    <td>Erkek</td>
+                    <td>Bekar</td>
+                    <td> <button type="button" class="btn btn-danger">Sil</button></td>
+
+
+                </tr>
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>T.C Kimlik No</th>
+                    <th>Pasaport Numarası</th>
+                    <th>Uyruğu</th>
+                    <th>Adı</th>
+                    <th>Soyadı</th>
+                    <th>Cinsiyeti</th>
+                    <th>Medeni Hali</th>
+                    <th>Nüfus İli</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
