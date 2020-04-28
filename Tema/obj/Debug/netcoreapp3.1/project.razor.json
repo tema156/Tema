@@ -17869,31 +17869,6 @@
       },
       {
         "Kind": "MVC.ViewComponent",
-        "Name": "__Generated__kimligibelirlisupheliViewComponentTagHelper",
-        "AssemblyName": "Tema",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": false,
-        "TagMatchingRules": [
-          {
-            "TagName": "vc:kimligibelirlisupheli",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "ITagHelper",
-          "Common.TypeName": "__Generated__kimligibelirlisupheliViewComponentTagHelper",
-          "MVC.ViewComponent.Name": "kimligibelirlisupheli"
-        }
-      },
-      {
-        "Kind": "MVC.ViewComponent",
         "Name": "__Generated__kimligibelirlimadurViewComponentTagHelper",
         "AssemblyName": "Tema",
         "Documentation": null,
@@ -17915,6 +17890,31 @@
           "Runtime.Name": "ITagHelper",
           "Common.TypeName": "__Generated__kimligibelirlimadurViewComponentTagHelper",
           "MVC.ViewComponent.Name": "kimligibelirlimadur"
+        }
+      },
+      {
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__kimligibelirlisupheliViewComponentTagHelper",
+        "AssemblyName": "Tema",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:kimligibelirlisupheli",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__kimligibelirlisupheliViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "kimligibelirlisupheli"
         }
       },
       {
@@ -17990,6 +17990,31 @@
           "Runtime.Name": "ITagHelper",
           "Common.TypeName": "__Generated__tuzelkisilikViewComponentTagHelper",
           "MVC.ViewComponent.Name": "tuzelkisilik"
+        }
+      },
+      {
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__mernisBilgileriViewComponentTagHelper",
+        "AssemblyName": "Tema",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:mernis-bilgileri",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__mernisBilgileriViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "mernisBilgileri"
         }
       },
       {
@@ -20666,11 +20691,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Views\\Shared\\Components\\UyapOlaylari\\Tasarim2\\KimligiBelirliTanik.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\UyapOlaylari\\Tasarim2\\KimligiBelirliTanik.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
@@ -20678,6 +20698,11 @@
     {
       "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Views\\Shared\\Components\\UyapOlaylari\\_Tasarim1.cshtml",
       "TargetPath": "Views\\Shared\\Components\\UyapOlaylari\\_Tasarim1.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Views\\UyapOlaylari\\Components\\mernisBilgileri\\Default.cshtml",
+      "TargetPath": "Views\\UyapOlaylari\\Components\\mernisBilgileri\\Default.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20716,18 +20741,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Views\\Shared\\Components\\UyapOlaylari\\Tasarim2\\KimligiMechulMagdurTanik.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\UyapOlaylari\\Tasarim2\\KimligiMechulMagdurTanik.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Views\\UyapOlaylari\\OlayGirisIslemleri.cshtml",
       "TargetPath": "Views\\UyapOlaylari\\OlayGirisIslemleri.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Views\\Shared\\Components\\UyapOlaylari\\Tasarim2\\KimligiBelirliSubheli.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\UyapOlaylari\\Tasarim2\\KimligiBelirliSubheli.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20738,11 +20753,6 @@
     {
       "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Views\\UyapOlaylari\\Components\\tuzelkisilik\\Default.cshtml",
       "TargetPath": "Views\\UyapOlaylari\\Components\\tuzelkisilik\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Views\\Shared\\Components\\UyapOlaylari\\Tasarim2\\KimligiBelirliMadur.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\UyapOlaylari\\Tasarim2\\KimligiBelirliMadur.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20758,11 +20768,6 @@
     {
       "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Views\\UyapOlaylari\\Components\\kimligibelirlimadur\\Default.cshtml",
       "TargetPath": "Views\\UyapOlaylari\\Components\\kimligibelirlimadur\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Views\\Shared\\Components\\UyapOlaylari\\Tasarim2\\TuzelKisilik.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\UyapOlaylari\\Tasarim2\\TuzelKisilik.cshtml",
       "FileKind": "mvc"
     },
     {

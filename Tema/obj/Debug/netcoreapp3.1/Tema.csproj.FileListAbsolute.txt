@@ -164,3 +164,4 @@ E:\Calismalarim\Github\Tema\Tema\obj\Debug\netcoreapp3.1\Razor\Views\UyapOlaylar
 E:\Calismalarim\Github\Tema\Tema\obj\Debug\netcoreapp3.1\Razor\Views\UyapOlaylari\Components\kimligibelirlitanik\Default.cshtml.g.cs
 E:\Calismalarim\Github\Tema\Tema\obj\Debug\netcoreapp3.1\Razor\Views\UyapOlaylari\Components\kimligimechulmagdurtanik\Default.cshtml.g.cs
 E:\Calismalarim\Github\Tema\Tema\obj\Debug\netcoreapp3.1\Razor\Views\UyapOlaylari\Components\tuzelkisilik\Default.cshtml.g.cs
+E:\Calismalarim\Github\Tema\Tema\obj\Debug\netcoreapp3.1\Razor\Views\UyapOlaylari\Components\mernisBilgileri\Default.cshtml.g.cs
