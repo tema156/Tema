@@ -1,5 +1,5 @@
 {
-  "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Tema.csproj",
+  "FilePath": "d:\\Calismalarim\\Tema\\Tema\\Tema.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -17869,6 +17869,306 @@
       },
       {
         "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__mernisBilgileriViewComponentTagHelper",
+        "AssemblyName": "Tema",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:mernis-bilgileri",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__mernisBilgileriViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "mernisBilgileri"
+        }
+      },
+      {
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__tahkikatIslemleriViewComponentTagHelper",
+        "AssemblyName": "Tema",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:tahkikat-islemleri",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__tahkikatIslemleriViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "tahkikatIslemleri"
+        }
+      },
+      {
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__aileIciSiddetOlaylariViewComponentTagHelper",
+        "AssemblyName": "Tema",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:aile-ici-siddet-olaylari",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__aileIciSiddetOlaylariViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "aileIciSiddetOlaylari"
+        }
+      },
+      {
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__degerTesbitTutatagiViewComponentTagHelper",
+        "AssemblyName": "Tema",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:deger-tesbit-tutatagi",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__degerTesbitTutatagiViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "degerTesbitTutatagi"
+        }
+      },
+      {
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__ifadeAlmaIslemleriViewComponentTagHelper",
+        "AssemblyName": "Tema",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:ifade-alma-islemleri",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__ifadeAlmaIslemleriViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "ifadeAlmaIslemleri"
+        }
+      },
+      {
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__olayYeriTesbitTutanagiViewComponentTagHelper",
+        "AssemblyName": "Tema",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:olay-yeri-tesbit-tutanagi",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__olayYeriTesbitTutanagiViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "olayYeriTesbitTutanagi"
+        }
+      },
+      {
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__savciGorusmeTutanagiViewComponentTagHelper",
+        "AssemblyName": "Tema",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:savci-gorusme-tutanagi",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__savciGorusmeTutanagiViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "savciGorusmeTutanagi"
+        }
+      },
+      {
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__tahkikatIslemleriTasarim1ViewComponentTagHelper",
+        "AssemblyName": "Tema",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:tahkikat-islemleri-tasarim1",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__tahkikatIslemleriTasarim1ViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "tahkikatIslemleriTasarim1"
+        }
+      },
+      {
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__tahkikatIslemleriTasarim2ViewComponentTagHelper",
+        "AssemblyName": "Tema",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:tahkikat-islemleri-tasarim2",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__tahkikatIslemleriTasarim2ViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "tahkikatIslemleriTasarim2"
+        }
+      },
+      {
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__temelBilgilerViewComponentTagHelper",
+        "AssemblyName": "Tema",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:temel-bilgiler",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__temelBilgilerViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "temelBilgiler"
+        }
+      },
+      {
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__fezlekeIslemleriViewComponentTagHelper",
+        "AssemblyName": "Tema",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:fezleke-islemleri",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__fezlekeIslemleriViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "fezlekeIslemleri"
+        }
+      },
+      {
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__fezlekeIslemleriViewComponentTagHelper",
+        "AssemblyName": "Tema",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:fezleke-islemleri",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__fezlekeIslemleriViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "fezlekeIslemleri"
+        }
+      },
+      {
+        "Kind": "MVC.ViewComponent",
         "Name": "__Generated__kimligibelirlimadurViewComponentTagHelper",
         "AssemblyName": "Tema",
         "Documentation": null,
@@ -17990,31 +18290,6 @@
           "Runtime.Name": "ITagHelper",
           "Common.TypeName": "__Generated__tuzelkisilikViewComponentTagHelper",
           "MVC.ViewComponent.Name": "tuzelkisilik"
-        }
-      },
-      {
-        "Kind": "MVC.ViewComponent",
-        "Name": "__Generated__mernisBilgileriViewComponentTagHelper",
-        "AssemblyName": "Tema",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": false,
-        "TagMatchingRules": [
-          {
-            "TagName": "vc:mernis-bilgileri",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "ITagHelper",
-          "Common.TypeName": "__Generated__mernisBilgileriViewComponentTagHelper",
-          "MVC.ViewComponent.Name": "mernisBilgileri"
         }
       },
       {
@@ -20671,108 +20946,158 @@
   "RootNamespace": "Tema",
   "Documents": [
     {
-      "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Views\\Shared\\Components\\UyapOlaylari\\_Tasarim2.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\UyapOlaylari\\_Tasarim2.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Views\\UyapOlaylari\\OlayOnayIslemleri.cshtml",
-      "TargetPath": "Views\\UyapOlaylari\\OlayOnayIslemleri.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Views\\UyapOlaylari\\ihbarGirisIslemleri.cshtml",
-      "TargetPath": "Views\\UyapOlaylari\\ihbarGirisIslemleri.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Views\\Shared\\Components\\UyapOlaylari\\_Tasarim1.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\UyapOlaylari\\_Tasarim1.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Views\\UyapOlaylari\\Components\\mernisBilgileri\\Default.cshtml",
-      "TargetPath": "Views\\UyapOlaylari\\Components\\mernisBilgileri\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Views\\UyapOlaylari\\Components\\kimligimechulmagdurtanik\\Default.cshtml",
-      "TargetPath": "Views\\UyapOlaylari\\Components\\kimligimechulmagdurtanik\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Views\\UyapOlaylari\\BelgeIslemleri.cshtml",
+      "FilePath": "d:\\Calismalarim\\Tema\\Tema\\Views\\UyapOlaylari\\BelgeIslemleri.cshtml",
       "TargetPath": "Views\\UyapOlaylari\\BelgeIslemleri.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Views\\UyapOlaylari\\Components\\kimligibelirlisupheli\\Default.cshtml",
-      "TargetPath": "Views\\UyapOlaylari\\Components\\kimligibelirlisupheli\\Default.cshtml",
+      "FilePath": "d:\\Calismalarim\\Tema\\Tema\\Views\\UyapOlaylari\\Components\\ifadeAlmaIslemleri\\Default.cshtml",
+      "TargetPath": "Views\\UyapOlaylari\\Components\\ifadeAlmaIslemleri\\Default.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FilePath": "d:\\Calismalarim\\Tema\\Tema\\Views\\UyapOlaylari\\Components\\tahkikatIslemleriTasarim3\\Default.cshtml",
+      "TargetPath": "Views\\UyapOlaylari\\Components\\tahkikatIslemleriTasarim3\\Default.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Views\\UyapOlaylari\\OlayGirisIslemleri.cshtml",
-      "TargetPath": "Views\\UyapOlaylari\\OlayGirisIslemleri.cshtml",
+      "FilePath": "d:\\Calismalarim\\Tema\\Tema\\Views\\UyapOlaylari\\Components\\tahkikatIslemleriTasarim1\\Default.cshtml",
+      "TargetPath": "Views\\UyapOlaylari\\Components\\tahkikatIslemleriTasarim1\\Default.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "d:\\Calismalarim\\Tema\\Tema\\Views\\Shared\\Components\\UyapOlaylari\\_Tasarim3.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\UyapOlaylari\\_Tasarim3.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Views\\UyapOlaylari\\Components\\tuzelkisilik\\Default.cshtml",
-      "TargetPath": "Views\\UyapOlaylari\\Components\\tuzelkisilik\\Default.cshtml",
+      "FilePath": "d:\\Calismalarim\\Tema\\Tema\\Views\\UyapOlaylari\\OlayOnayIslemleri.cshtml",
+      "TargetPath": "Views\\UyapOlaylari\\OlayOnayIslemleri.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Views\\UyapOlaylari\\Components\\kimligibelirlitanik\\Default.cshtml",
+      "FilePath": "d:\\Calismalarim\\Tema\\Tema\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Calismalarim\\Tema\\Tema\\Views\\UyapOlaylari\\Components\\tahkikatIslemleriTasarim2\\Default.cshtml",
+      "TargetPath": "Views\\UyapOlaylari\\Components\\tahkikatIslemleriTasarim2\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Calismalarim\\Tema\\Tema\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Calismalarim\\Tema\\Tema\\Views\\UyapOlaylari\\Components\\kimligibelirlitanik\\Default.cshtml",
       "TargetPath": "Views\\UyapOlaylari\\Components\\kimligibelirlitanik\\Default.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Views\\UyapOlaylari\\RaporOnayIslemleri.cshtml",
-      "TargetPath": "Views\\UyapOlaylari\\RaporOnayIslemleri.cshtml",
+      "FilePath": "d:\\Calismalarim\\Tema\\Tema\\Views\\UyapOlaylari\\Components\\degerTesbitTutatagi\\Default.cshtml",
+      "TargetPath": "Views\\UyapOlaylari\\Components\\degerTesbitTutatagi\\Default.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Views\\UyapOlaylari\\Components\\kimligibelirlimadur\\Default.cshtml",
+      "FilePath": "d:\\Calismalarim\\Tema\\Tema\\Views\\UyapOlaylari\\Components\\savciGorusmeTutanagi\\Default.cshtml",
+      "TargetPath": "Views\\UyapOlaylari\\Components\\savciGorusmeTutanagi\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Calismalarim\\Tema\\Tema\\Views\\UyapOlaylari\\Components\\tuzelkisilik\\Default.cshtml",
+      "TargetPath": "Views\\UyapOlaylari\\Components\\tuzelkisilik\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Calismalarim\\Tema\\Tema\\Views\\UyapOlaylari\\Components\\temelBilgiler\\default.cshtml",
+      "TargetPath": "Views\\UyapOlaylari\\Components\\temelBilgiler\\default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Calismalarim\\Tema\\Tema\\Views\\UyapOlaylari\\Components\\kimligibelirlimadur\\Default.cshtml",
       "TargetPath": "Views\\UyapOlaylari\\Components\\kimligibelirlimadur\\Default.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\Calismalarim\\Github\\Tema\\Tema\\Views\\Shared\\Components\\UyapOlaylari\\_Tasarim3.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\UyapOlaylari\\_Tasarim3.cshtml",
+      "FilePath": "d:\\Calismalarim\\Tema\\Tema\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Calismalarim\\Tema\\Tema\\Views\\UyapOlaylari\\ihbarGirisIslemleri.cshtml",
+      "TargetPath": "Views\\UyapOlaylari\\ihbarGirisIslemleri.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Calismalarim\\Tema\\Tema\\Views\\UyapOlaylari\\Components\\kimligimechulmagdurtanik\\Default.cshtml",
+      "TargetPath": "Views\\UyapOlaylari\\Components\\kimligimechulmagdurtanik\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Calismalarim\\Tema\\Tema\\Views\\UyapOlaylari\\Components\\mernisBilgileri\\Default.cshtml",
+      "TargetPath": "Views\\UyapOlaylari\\Components\\mernisBilgileri\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Calismalarim\\Tema\\Tema\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Calismalarim\\Tema\\Tema\\Views\\Shared\\Components\\UyapOlaylari\\_Tasarim1.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\UyapOlaylari\\_Tasarim1.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Calismalarim\\Tema\\Tema\\Views\\UyapOlaylari\\RaporOnayIslemleri.cshtml",
+      "TargetPath": "Views\\UyapOlaylari\\RaporOnayIslemleri.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Calismalarim\\Tema\\Tema\\Views\\UyapOlaylari\\Components\\olayYeriTesbitTutanagi\\Default.cshtml",
+      "TargetPath": "Views\\UyapOlaylari\\Components\\olayYeriTesbitTutanagi\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Calismalarim\\Tema\\Tema\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Calismalarim\\Tema\\Tema\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Calismalarim\\Tema\\Tema\\Views\\UyapOlaylari\\Components\\aileIciSiddetOlaylari\\Default.cshtml",
+      "TargetPath": "Views\\UyapOlaylari\\Components\\aileIciSiddetOlaylari\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Calismalarim\\Tema\\Tema\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Calismalarim\\Tema\\Tema\\Views\\UyapOlaylari\\Components\\kimligibelirlisupheli\\Default.cshtml",
+      "TargetPath": "Views\\UyapOlaylari\\Components\\kimligibelirlisupheli\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Calismalarim\\Tema\\Tema\\Views\\UyapOlaylari\\Components\\fezlekeIslemleri\\default.cshtml",
+      "TargetPath": "Views\\UyapOlaylari\\Components\\fezlekeIslemleri\\default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Calismalarim\\Tema\\Tema\\Views\\UyapOlaylari\\OlayGirisIslemleri.cshtml",
+      "TargetPath": "Views\\UyapOlaylari\\OlayGirisIslemleri.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Calismalarim\\Tema\\Tema\\Views\\Shared\\Components\\UyapOlaylari\\_Tasarim2.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\UyapOlaylari\\_Tasarim2.cshtml",
       "FileKind": "mvc"
     }
   ],

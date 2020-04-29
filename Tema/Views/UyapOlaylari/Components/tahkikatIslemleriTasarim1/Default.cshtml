@@ -1,0 +1,275 @@
+
+
+
+ 
+  <div class="panel panel-info">
+  <div class="panel-heading">Tahkikat İşlemleri</div>
+  <div class="panel-body">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Olay Yeri Tespit Tutanağı <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>  </button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#olayYeriTesbit">İfade Alma İşlemleri <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> </button>
+
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#aileIciSiddet">Aile İçi Şiddet Olayları  <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span></button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#savciGorusmaTutanagi">Savcı Görüşme Tutanağı <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> </button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#degerTesbitTutanagi">İlgili Kurum Değer Tespit Tutanağı <span class="glyphicon glyphicon-file" aria-hidden="true"></span></button>
+                
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Olay Yeri Tespit Tutanağı Formu</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+
+
+                                <form>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlSelect1">Olay Yeri</label>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>J.Ast.Çvş. Erdem ÇALIK</option>
+                                            <option>J.Ast.Çvş. Cengiz YILDIZ</option>
+
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message-text" class="col-form-label">Olay Yeri Tespit Tutanağı</label>
+                                        <textarea class="form-control" name="editor2" id="editor2"></textarea>
+                                    </div>
+                                </form>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+                                <button type="button" class="btn btn-primary">Tutanağı Kaydet</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="olayYeriTesbit" tabindex="-1" role="dialog" aria-labelledby="olayYeriTesbit" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="olayYeriTesbit">İfade Alma İşlemleri-Tutanakları</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="recipient-name" class="col-form-label">Olay Türü:</label>
+                                        <input type="text" class="form-control" id="recipient-name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message-text" class="col-form-label">Olay Yeri Tespit Tutanağı</label>
+                                        <textarea class="form-control" name="editor2" id="editor2"></textarea>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+                                <button type="button" class="btn btn-primary">Kaydet</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="modal fade" id="savciGorusmaTutanagi" tabindex="-1" role="dialog" aria-labelledby="savciGorusmaTutanagi" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="savciGorusmaTutanagi">Savcı Görüşme Tuatnağı</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="recipient-name" class="col-form-label">Recipient:</label>
+                                        <input type="text" class="form-control" id="recipient-name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message-text" class="col-form-label">Savcı Görüşme Tutanağı</label>
+                                        <textarea class="form-control" name="editor3" id="editor3"></textarea>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+                                <button type="button" class="btn btn-primary">Kaydet</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="modal fade" id="degerTesbitTutanagi" tabindex="-1" role="dialog" aria-labelledby="degerTesbitTutanagi" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="degerTesbitTutanagi">Değer Tesbit Tutanağı</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="recipient-name" class="col-form-label">Recipient:</label>
+                                        <input type="text" class="form-control" id="recipient-name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message-text" class="col-form-label">İlgili Kurum Değer Tespit Tutanağı</label>
+                                        <textarea class="form-control" name="editor4" id="editor4"></textarea>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+                                <button type="button" class="btn btn-primary">Kaydet</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="modal fade" id="aileIciSiddet" tabindex="-1" role="dialog" aria-labelledby="aileIciSiddet" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="aileIciSiddet">Aile İçi Şiddet Olaylari Kayıt Formu</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="recipient-name" class="col-form-label">Alan1:</label>
+                                        <input type="text" class="form-control" id="recipient-name">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="recipient-name" class="col-form-label">Alan2:</label>
+                                        <input type="text" class="form-control" id="recipient-name">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="recipient-name" class="col-form-label">Alan3:</label>
+                                        <input type="text" class="form-control" id="recipient-name">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="message-text" class="col-form-label">Message:</label>
+                                        <textarea class="form-control" id="message-text"></textarea>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Send message</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+  
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">İşlem Bilgileri</h3>
+  </div>
+  <div class="panel-body">
+                <div class="col-lg-12">
+                    <table id="example2" class="display" style="width:100%">
+
+                        <thead>
+                            <tr>
+                                <th>İşlem Tipi</th>
+                                <th>İşlem Tarih Saat</th>
+                                <th>İşlem Özeti</th>
+                                <th>İşlem Taraf Bilgileri</th>
+                                <th>İşlem Onay Durumu</th>
+                                <th>Açıklama</th>
+                                <th>Sil</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>İfade alma</td>
+                                <td>14.10.2020</td>
+                                <td>magdur ifade tutanağı</td>
+                                <td>abidin ışlak erdem çalık</td>
+                                <td>ONAYLI</td>
+                                <td>açıklama test</td>
+                                <td> <button type="button" class="btn btn-danger">Sil</button></td>
+                            </tr>
+                            <tr>
+                                <td>Aile içi şidet aolayları kayıt formu</td>
+                                <td>15.10.2020</td>
+                                <td>aile içi şidet aolayları kayırt formu</td>
+                                <td>abidin ışlak erdem çalık</td>
+                                <td>ONAYLI</td>
+                                <td>bakanlığa aktarıldı</td>
+                                <td> <button type="button" class="btn btn-danger">Sil</button></td>
+                            </tr>
+                            <tr>
+                                <td>Savcı görüşme tutanağı</td>
+                                <td>16.10.2020</td>
+                                <td>savcı görüşme tutanağı</td>
+                                <td>c.savcısı ibrahim SAVCI</td>
+                                <td>ONAYSIZ BELGE</td>
+                                <td>bakanlığa aktarıldı</td>
+                                <td> <button type="button" class="btn btn-danger">Sil</button></td>
+                            </tr>
+                            <tr>
+                                <td>Savcı görüşme tutanağı</td>
+                                <td>16.10.2020</td>
+                                <td>savcı görüşme tutanağı</td>
+                                <td>c.savcısı ibrahim SAVCI</td>
+                                <td>ONAYSIZ BELGE</td>
+                                <td>bakanlığa aktarıldı</td>
+                                <td> <button type="button" class="btn btn-danger">Sil</button></td>
+                            </tr>
+                            <tr>
+                                <td>Değer tespit tutanğı </td>
+                                <td>16.10.2020</td>
+                                <td>ilçe tarım ile yazışma</td>
+                                <td>yerköy ilçe tarım müdürlüğü</td>
+                                <td>İLÇE J. K. ONAY BEKLİYOR</td>
+                                <td>ivedi işlem yapılması gereken evrak</td>
+                                <td> <button type="button" class="btn btn-danger">Sil</button></td>
+                            </tr>
+                        </tbody>
+
+                        <tfoot>
+                            <tr>
+                                <th>İşlem Tipi</th>
+                                <th>İşlem Tarih Saat</th>
+                                <th>İşlem Özeti</th>
+                                <th>İşlem Taraf Bilgileri</th>
+                                <th>İşlem Onay Durumu</th>
+                                <th>Açıklama</th>
+                                <td> <button type="button" class="btn btn-danger">Sil</button></td>
+
+
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+  </div>
+</div>   
+
+
+
+
+
+

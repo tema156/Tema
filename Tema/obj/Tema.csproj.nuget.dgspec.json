@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Calismalarim\\Github\\Tema\\Tema\\Tema.csproj": {}
+    "D:\\Calismalarim\\Tema\\Tema\\Tema.csproj": {}
   },
   "projects": {
-    "E:\\Calismalarim\\Github\\Tema\\Tema\\Tema.csproj": {
+    "D:\\Calismalarim\\Tema\\Tema\\Tema.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Calismalarim\\Github\\Tema\\Tema\\Tema.csproj",
+        "projectUniqueName": "D:\\Calismalarim\\Tema\\Tema\\Tema.csproj",
         "projectName": "Tema",
-        "projectPath": "E:\\Calismalarim\\Github\\Tema\\Tema\\Tema.csproj",
-        "packagesPath": "C:\\Users\\CahitYusuf\\.nuget\\packages\\",
-        "outputPath": "E:\\Calismalarim\\Github\\Tema\\Tema\\obj\\",
+        "projectPath": "D:\\Calismalarim\\Tema\\Tema\\Tema.csproj",
+        "packagesPath": "C:\\Users\\2366144\\.nuget\\packages\\",
+        "outputPath": "D:\\Calismalarim\\Tema\\Tema\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CahitYusuf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\2366144\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

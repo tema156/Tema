@@ -124,8 +124,8 @@
         <h5 style="padding-left:10px;">HİZMET DEFTERİ</h5>
         <ul class="nav menu">
             <!-- <li class="active"><a href="index.html"><em class="fa fa-dashboard">&nbsp;</em> Anasayfa</a></li>-->
-           
-          
+
+
             <h5 style="padding-left:10px;">OLAY İŞLEMLERİ</h5>
             <div class="divider"></div>
             <li class="parent ">
@@ -147,7 +147,8 @@
                     </li>
                     <li>
                         @Html.ActionLink(" Rapor Onay İşlemleri", "RaporOnayIslemleri", "UyapOlaylari", null, new { @class = "fa fa-arrow-right" })
-                    </li><li>
+                    </li>
+                    <li>
                         @Html.ActionLink("Onay İşlemleri", "OlayOnayIslemleri", "UyapOlaylari", null, new { @class = "fa fa-arrow-right" })
                     </li>
                 </ul>
@@ -168,7 +169,7 @@
             <div class="divider"></div>
             <h5 style="padding-left:10px;">OBS SORGULAMA İŞLEMLERİ</h5>
             <div class="divider"></div>
-            
+
 
             <!-- @*<li><a href="widgets.html"><em class="fa fa-calendar">&nbsp;</em>Asayiş Portalı İşlemleri</a></li>
 
@@ -209,97 +210,102 @@
 
         @RenderBody()
 
-
     </div>
 
-
-
-
-
-    <script src="~/js/jquery-1.11.1.min.js"></script>
+    @*<script src="~/js/jquery-1.11.1.min.js"></script>*@
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
     <script src="//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
-
     <script src="~/js/bootstrap.min.js"></script>
+    @* <script src="https://cdn.ckeditor.com/ckeditor5/18.0.0/decoupled-document/ckeditor.js"></script> *@
+    <script src="~/ckeditor/ckeditor.js"></script>
     <script src="~/js/chart.min.js"></script>
     <script src="~/js/chart-data.js"></script>
     <script src="~/js/easypiechart.js"></script>
     <script src="~/js/easypiechart-data.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/3.1.4/js/bootstrap-datetimepicker.min.js"></script>
-    <script src="~/ckeditor/ckeditor.js"></script>
     <script src="~/js/custom.js"></script>
 
 
-<script>
+    <script>
 
-        CKEDITOR.replace('editor1');
-        CKEDITOR.replace('editor2');
-        CKEDITOR.replace('editor3');
-        CKEDITOR.replace('editor4');
+    CKEDITOR.replace( 'editor1' );
+    CKEDITOR.replace( 'editor2' );
+    CKEDITOR.replace( 'editor3' );
+    CKEDITOR.replace( 'editor4' );
+    CKEDITOR.replace( 'editor5' );
+    CKEDITOR.replace( 'editor6' );
+    CKEDITOR.replace( 'editor7' );
+    CKEDITOR.replace( 'editor8' );
+    CKEDITOR.replace( 'editor9' );
+    
+        $(document).ready(function () {
 
-    $(document).ready(function () {
-$('#exampleModal').on('show.bs.modal',
-            function (event) {
-                var button = $(event.relatedTarget) // Button that triggered the modal
-                var recipient = button.data('whatever') // Extract info from data-* attributes
-                // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
-                // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
-                var modal = $(this)
-                modal.find('.modal-title').text('New message to ' + recipient);
-                modal.find('.modal-body input').val(recipient);
-            });
 
-        $('#olayYeriTesbit').on('show.bs.modal',
-            function (event) {
-                var button = $(event.relatedTarget) // Button that triggered the modal
-                var recipient = button.data('whatever') // Extract info from data-* attributes
-                // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
-                // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
-                var modal = $(this)
-                modal.find('.modal-title').text('New message to ' + recipient);
-                modal.find('.modal-body input').val(recipient);
-            });
+            $('#exampleModal').on('show.bs.modal',
+                function (event) {
+                    var button = $(event.relatedTarget) // Button that triggered the modal
+                    var recipient = button.data('whatever') // Extract info from data-* attributes
+                    // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+                    // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+                    var modal = $(this)
+                    modal.find('.modal-title').text('New message to ' + recipient);
+                    modal.find('.modal-body input').val(recipient);
+                });
 
-        $('#savciGorusmaTutanagi').on('show.bs.modal',
-            function (event) {
-                var button = $(event.relatedTarget); // Button that triggered the modal
-                var recipient = button.data('whatever'); // Extract info from data-* attributes
-                // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
-                // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
-                var modal = $(this)
-                modal.find('.modal-title').text('New message to ' + recipient);
-                modal.find('.modal-body input').val(recipient);
-            });
+            $('#olayYeriTesbit').on('show.bs.modal',
+                function (event) {
+                    var button = $(event.relatedTarget) // Button that triggered the modal
+                    var recipient = button.data('whatever') // Extract info from data-* attributes
+                    // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+                    // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+                    var modal = $(this)
+                    modal.find('.modal-title').text('New message to ' + recipient);
+                    modal.find('.modal-body input').val(recipient);
+                });
 
-        $('#savciGorusmaTutanagi').on('show.bs.modal',
-            function (event) {
-                var button = $(event.relatedTarget); // Button that triggered the modal
-                var recipient = button.data('whatever'); // Extract info from data-* attributes
-                // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
-                // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
-                var modal = $(this)
-                modal.find('.modal-title').text('New message to ' + recipient);
-                modal.find('.modal-body input').val(recipient);
-            });
+            $('#savciGorusmaTutanagi').on('show.bs.modal',
+                function (event) {
+                    var button = $(event.relatedTarget); // Button that triggered the modal
+                    var recipient = button.data('whatever'); // Extract info from data-* attributes
+                    // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+                    // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+                    var modal = $(this)
+                    modal.find('.modal-title').text('New message to ' + recipient);
+                    modal.find('.modal-body input').val(recipient);
+                });
 
-        $('#degerTesbitTutanagi').on('show.bs.modal',
-            function (event) {
-                var button = $(event.relatedTarget);
-                // Button that triggered the modal
-                var recipient = button.data('whatever'); // Extract info from data-* attributes
-                // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
-                // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
-                var modal = $(this)
-                modal.find('.modal-title').text('New message to ' + recipient);
-                modal.find('.modal-body input').val(recipient);
-            });   
-      
-    });
+            $('#savciGorusmaTutanagi').on('show.bs.modal',
+                function (event) {
+                    var button = $(event.relatedTarget); // Button that triggered the modal
+                    var recipient = button.data('whatever'); // Extract info from data-* attributes
+                    // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+                    // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+                    var modal = $(this)
+                    modal.find('.modal-title').text('New message to ' + recipient);
+                    modal.find('.modal-body input').val(recipient);
+                });
 
-      
+            $('#degerTesbitTutanagi').on('show.bs.modal',
+                function (event) {
+                    var button = $(event.relatedTarget);
+                    // Button that triggered the modal
+                    var recipient = button.data('whatever'); // Extract info from data-* attributes
+                    // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+                    // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+                    var modal = $(this)
+                    modal.find('.modal-title').text('New message to ' + recipient);
+                    modal.find('.modal-body input').val(recipient);
+                });
 
-</script>
+        });
 
-    @RenderSection("Scripts",false);
+
+
+    </script>
+
+    @RenderSection("Scripts", false);
 
 </body>
 </html>
