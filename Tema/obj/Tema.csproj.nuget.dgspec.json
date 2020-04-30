@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Calismalarim\\Tema\\Tema\\Tema.csproj": {}
+    "C:\\Users\\2549186\\Desktop\\TESTGİT\\Tema\\Tema\\Tema.csproj": {}
   },
   "projects": {
-    "D:\\Calismalarim\\Tema\\Tema\\Tema.csproj": {
+    "C:\\Users\\2549186\\Desktop\\TESTGİT\\Tema\\Tema\\Tema.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Calismalarim\\Tema\\Tema\\Tema.csproj",
+        "projectUniqueName": "C:\\Users\\2549186\\Desktop\\TESTGİT\\Tema\\Tema\\Tema.csproj",
         "projectName": "Tema",
-        "projectPath": "D:\\Calismalarim\\Tema\\Tema\\Tema.csproj",
-        "packagesPath": "C:\\Users\\2366144\\.nuget\\packages\\",
-        "outputPath": "D:\\Calismalarim\\Tema\\Tema\\obj\\",
+        "projectPath": "C:\\Users\\2549186\\Desktop\\TESTGİT\\Tema\\Tema\\Tema.csproj",
+        "packagesPath": "C:\\Users\\2549186\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\2549186\\Desktop\\TESTGİT\\Tema\\Tema\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\2366144\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\2549186\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
