@@ -109,7 +109,7 @@
                 <img src="http://placehold.it/50/30a5ff/fff" class="img-responsive" alt="">
             </div>
             <div class="profile-usertitle">
-                <div class="profile-usertitle-name">J.Ast.Çvş.Erdem ÇALIK</div>
+                <div class="profile-usertitle-name">J.Ast.Çvş.Ali KAYA</div>
                 <div class="profile-usertitle-status"><span class="indicator label-success"></span>Aktif</div>
             </div>
             <div class="clear"></div>
@@ -153,28 +153,65 @@
                     </li>
                 </ul>
             </li>
+          
+         
+        </ul>
+    <ul class="nav menu">
+            <!-- <li class="active"><a href="index.html"><em class="fa fa-dashboard">&nbsp;</em> Anasayfa</a></li>-->
+
+
+            <h5 style="padding-left:10px;">BELGE İŞLEMLERİ</h5>
             <div class="divider"></div>
+            <li class="parent ">
+                <a data-toggle="collapse" href="#sub-item-1">
+                    <em class="fa fa-navicon">&nbsp;</em> Gelen Belge İşlemleri <span data-toggle="collapse" href="#sub-item-1" class="icon pull-right"></span>
+                </a>
+                <ul class="children collapse" id="sub-item-1">
+                    <li>
 
 
+                        @Html.ActionLink(" Gelen Belge İşlemleri", "ihbarGirisIslemleri", "UyapOlaylari", null, new { @class = "fa fa-arrow-right" })
+
+                    </li>
+                  
+                </ul> <ul class="children collapse" id="sub-item-1">
+                    <li>
+
+
+                        @Html.ActionLink("Belge Hazırlama İşlemleri", "ihbarGirisIslemleri", "UyapOlaylari", null, new { @class = "fa fa-arrow-right" })
+
+                    </li>
+                  
+                </ul> <ul class="children collapse" id="sub-item-1">
+                    <li>
+
+
+                        @Html.ActionLink(" Belge Onaylama İşlemleri", "ihbarGirisIslemleri", "UyapOlaylari", null, new { @class = "fa fa-arrow-right" })
+
+                    </li>
+                  
+                </ul>
+            </li>
+          
 
 
             @*<div class="divider"></div>
-                <h5 style="padding-left:10px;">ANALİZ İŞLEMLERİ</h5>
-                <li><a href="widgets.html"><em class="fa fa-bar-chart">&nbsp;</em> Birim Bazlı Analiz</a></li>
-                <div class="divider"></div>*@
+        <h5 style="padding-left:10px;">ANALİZ İŞLEMLERİ</h5>
+        <li><a href="widgets.html"><em class="fa fa-bar-chart">&nbsp;</em> Birim Bazlı Analiz</a></li>
+        <div class="divider"></div>*@
 
 
 
 
             <div class="divider"></div>
-            <h5 style="padding-left:10px;">OBS SORGULAMA İŞLEMLERİ</h5>
+            <h5 style="padding-left:10px;">OLAY SORGULAMA İŞLEMLERİ</h5>
             <div class="divider"></div>
 
 
             <!-- @*<li><a href="widgets.html"><em class="fa fa-calendar">&nbsp;</em>Asayiş Portalı İşlemleri</a></li>
 
-                <li><a href="widgets.html"><em class="fa fa-calendar">&nbsp;</em>Cezaevi İşlemleri</a></li>
-                <div class="divider"></div>*@ -->
+    <li><a href="widgets.html"><em class="fa fa-calendar">&nbsp;</em>Cezaevi İşlemleri</a></li>
+    <div class="divider"></div>*@ -->
 
 
 
@@ -182,9 +219,9 @@
             <h5 style="padding-left:10px;">AYARLAR</h5>
             <!-- @*<li><a href="widgets.html"><em class="fa fa-user">&nbsp;</em>Vekalet İşlemleri</a></li>
 
-                <li><a href="widgets.html"><em class="fa fa-users">&nbsp;</em> Yetkilendirme İşlemleri</a></li>
+    <li><a href="widgets.html"><em class="fa fa-users">&nbsp;</em> Yetkilendirme İşlemleri</a></li>
 
-                <li><a href="widgets.html"><em class="fa fa-key">&nbsp;</em>Parola İşlemleri</a></li>*@ -->
+    <li><a href="widgets.html"><em class="fa fa-key">&nbsp;</em>Parola İşlemleri</a></li>*@ -->
 
             <li><a href="login.html"><em class="fa fa-power-off">&nbsp;</em>Çıkış</a></li>
             <div class="divider"></div>
@@ -194,13 +231,17 @@
 
 
 
-                    <!--
-            <li><a href="charts.html"><em class="fa fa-bar-chart">&nbsp;</em> Charts</a></li>
-            <li><a href="elements.html"><em class="fa fa-toggle-off">&nbsp;</em> UI Elements</a></li>
-            <li><a href="panels.html"><em class="fa fa-clone">&nbsp;</em> Alerts &amp; Panels</a></li>
-                -->
+            <!--
+    <li><a href="charts.html"><em class="fa fa-bar-chart">&nbsp;</em> Charts</a></li>
+    <li><a href="elements.html"><em class="fa fa-toggle-off">&nbsp;</em> UI Elements</a></li>
+    <li><a href="panels.html"><em class="fa fa-clone">&nbsp;</em> Alerts &amp; Panels</a></li>
+        -->
 
         </ul>
+
+
+
+
     </div><!--/.sidebar-->
 
 
