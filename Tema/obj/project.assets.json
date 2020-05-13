@@ -6016,11 +6016,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\2549186\\Desktop\\TESTGİT\\Tema\\Tema\\Tema.csproj",
+      "projectUniqueName": "C:\\Users\\2549186\\Source\\Repos\\Tema2\\Tema\\Tema.csproj",
       "projectName": "Tema",
-      "projectPath": "C:\\Users\\2549186\\Desktop\\TESTGİT\\Tema\\Tema\\Tema.csproj",
+      "projectPath": "C:\\Users\\2549186\\Source\\Repos\\Tema2\\Tema\\Tema.csproj",
       "packagesPath": "C:\\Users\\2549186\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\2549186\\Desktop\\TESTGİT\\Tema\\Tema\\obj\\",
+      "outputPath": "C:\\Users\\2549186\\Source\\Repos\\Tema2\\Tema\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
