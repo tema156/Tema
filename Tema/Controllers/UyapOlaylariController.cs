@@ -28,6 +28,9 @@ namespace Tema.Controllers
         }public IActionResult BelgeIslemleri()
         {
             return View();
+        }public IActionResult ihbarIslemleri()
+        {
+            return View();
         }
     }
 }
